@@ -1,16 +1,77 @@
-body {
-    border: 1px solid red;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main-container {
+body {
+    height: 1200px;
+}
+.main-container {
     display: flex;
     flex: 1
 }
 
-left-container {
-    background-color: aqua;
+.left-container {
+    background-image: url(images/background.png);
 }
 
-right-container {
-    background-color: darkblue;
+.right-container {
+}
+
+.odin-logo {
+    display: flex;
+    flex: 1;
+}
+
+.signup-info {
+    background-color: #c8cfd1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 500px;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+.tagline {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.signup-details {
+    padding-left: 15px;
+}
+
+.name {
+    display: flex;
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact {
+    display: flex;
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.password {
+    display: flex;
+    flex: 1;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.footer {
+    padding-top: 120px;
+    padding-left: 15px;
+    padding-bottom: 35px;
+    background-color: #c8cfd1;
+}
+
+.submit{
+    color: #596D48;
 }
