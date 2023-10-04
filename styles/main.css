@@ -1,0 +1,16 @@
+body {
+    border: 1px solid red;
+}
+
+main-container {
+    display: flex;
+    flex: 1
+}
+
+left-container {
+    background-color: aqua;
+}
+
+right-container {
+    background-color: darkblue;
+}
