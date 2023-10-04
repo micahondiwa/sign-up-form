@@ -47,22 +47,34 @@ body {
 .name {
     display: flex;
     flex: 1;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.first_name,
+.email,
+.pass-word{
+    padding-right: 15px;
+}
+
+.last_name,
+.phone_number,
+.confirm-password {
+    padding-left: 15px;
 }
 
 .contact {
     display: flex;
     flex: 1;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .password {
     display: flex;
     flex: 1;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .footer {
